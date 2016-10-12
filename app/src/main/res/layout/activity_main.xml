@@ -4,33 +4,114 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.yun.myapplication.MainActivity">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Android Study!" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/notification"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Notification" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/activityload"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Activity Load Style" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Android Study!" />
 
-    <Button
-        android:id="@+id/fragment"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment Test" />
+            <Button
+                android:id="@+id/notification"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification" />
+
+            <Button
+                android:id="@+id/activityload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Load Style" />
+
+            <Button
+                android:id="@+id/fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment Test" />
+
+            <Button
+                android:id="@+id/imagetest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Image Test" />
+
+            <Button
+                android:id="@+id/bitmapb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="bitmapb Test" />
+
+            <Button
+                android:id="@+id/progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="progress Test" />
+
+            <Button
+                android:id="@+id/toast"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Toast Test" />
+
+            <Button
+                android:id="@+id/popup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PopupWindow Test" />
+
+            <Button
+                android:id="@+id/draw"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Draw Test" />
+
+            <Button
+                android:id="@+id/blur"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Blur Test" />
+
+            <Button
+                android:id="@+id/draw2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Draw Test" />
+
+            <Button
+                android:id="@+id/draw3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Draw Test" />
+
+            <Button
+                android:id="@+id/draw9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Draw Test" />
+
+            <Button
+                android:id="@+id/draw4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Draw Test" />
+
+            <Button
+                android:id="@+id/draw5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Draw Test" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

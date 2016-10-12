@@ -15,12 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NotificationTestActivity">
-        </activity>
-        <activity android:name=".StandardTest">
-        </activity>
-        <activity android:name=".FragmentTestActivity">
-        </activity>
+        <activity android:name=".NotificationTestActivity"></activity>
+        <activity android:name=".StandardTest"></activity>
+        <activity android:name=".FragmentTestActivity"></activity>
+        <activity android:name=".ImageTestActivity"></activity>
+        <activity android:name=".BitmapDemo"></activity>
+        <activity android:name=".ProgressActivity"></activity>
+        <activity android:name=".ToastActivity"></activity>
+        <activity android:name=".PopupWindowActivity"></activity>
+        <activity android:name=".DrawActivity"></activity>
+        <activity android:name=".BlurActivity"></activity>
     </application>
 
 </manifest>
