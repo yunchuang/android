@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="法定放假啊看来费劲考虑大局来看法大师傅"
+        android:background="@drawable/back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="法定放假\n啊看来费\n劲考虑大局\n来看虑大\n局来看虑\n大局来看\n虑大\n局来\n看法大师傅"
+        android:background="@drawable/back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="法定放假啊\n看来费\n劲考虑大局\n来看虑大\n局来看虑\n大局来看\n虑大\n局来\n看法大师傅"
+        android:background="@drawable/back2"/>
+
+</LinearLayout>

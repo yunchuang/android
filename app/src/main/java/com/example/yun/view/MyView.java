@@ -6,6 +6,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
 import android.view.animation.Transformation;
 
 import com.example.yun.myapplication.R;
@@ -50,6 +51,7 @@ public class MyView extends View {
         mPaint.setTextSize(36);             //绘制文字大小，单位px
         mPaint.setStrokeWidth(5);           //画笔粗细
         anim = new BaseAnimation();
+        anim.setInterpolator(new LinearInterpolator());
         anim.setDuration(20000);
     }
 

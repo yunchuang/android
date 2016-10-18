@@ -25,6 +25,8 @@
 
             <Button
                 android:id="@+id/notification"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Notification" />
